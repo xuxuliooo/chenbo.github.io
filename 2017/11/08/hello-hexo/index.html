@@ -1,0 +1,12 @@
+extends views/main.pug
+
+block head
+  title
+    = page.title + ' - ' + config.title
+
+block main
+  include mixins/post.pug
+  +post(page, 'post')
+  
+  include plugins/reward.pug
+  include plugins/livere.pug

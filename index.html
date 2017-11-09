@@ -197,16 +197,6 @@
         </li>
       
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            标签
-          </a>
-        </li>
-      
-        
         <li class="menu-item menu-item-categories">
           <a href="/categories/" rel="section">
             
@@ -330,7 +320,17 @@
       
         
           
-            
+            <p>Shader  :  着色器，Canvas的drawXXX这个方法是画具体的形状，画笔的Shader定义的就是图形的着色和外观</p>
+<p>BitmapShader  :  位图图像渲染，用Bitmap对绘制的图形进行渲染着色，简单来说就是用图片对图形进行贴图(如圆形头像，放大镜效果)</p>
+<pre><code>TileMode : 拉伸形式
+    CLAMP     -- 拉伸最后一个像素铺满
+    MIRROR     -- 横向纵向不足处不断翻转镜像平铺
+    REPEAT     -- 类似电脑壁纸，横向纵向不足的重复放置
+</code></pre><p>LinearGradient  :  线性渲染(霓虹灯文字，倒影图片效果)</p>
+<p>SweepGradient  :  渐变渲染/梯度渲染(雷达扫描效果)</p>
+<p>RadialGradient  :  环形渲染(水波纹效果)</p>
+<p>ComposeShader  :  组合渲染(可将上述几种综合起来实现多种渲染效果)</p>
+
           
         
       
